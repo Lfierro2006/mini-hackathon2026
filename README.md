@@ -25,3 +25,6 @@ gcc main.c merge.c -o sorts -lraylib -lgdi32 -lwinmm
 - Insertion Sort
 - Merge Sort
 - Block Sort
+
+
+**PD: Los archivos `bubble.c`, `insertion.c` y `block.c` no son necesarios para que funcione el programa, solo quedaron como evidencia de la referencia utilizada para hacer el `main.c`**
