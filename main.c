@@ -137,9 +137,9 @@ static void step(void){
 static int pasosPorFrame(void){
     int p;
     if(current == SORT_BUBBLE || current == SORT_INSERTION)
-        p = (n * n) / 1600;
+        p = (n * n) / 3000;
     else
-        p = (n * 8) / 160;
+        p = (n * 8) / 300;
     if(p < 1) p = 1;
     return p;
 }
